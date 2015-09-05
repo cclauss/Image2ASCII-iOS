@@ -1,0 +1,60 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(1.000000,1.000000,1.000000,0.000000)",
+      "enabled" : true,
+      "flex" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "alpha" : 1,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "custom_class" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "tint_color" : "RGBA(0.714286,0.714286,0.714286,1.000000)",
+          "font_size" : 15,
+          "enabled" : true,
+          "font_bold" : false,
+          "name" : "take_photo",
+          "flex" : "",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "image_pick",
+          "uuid" : "C08F9D6F-8496-4CDE-995F-DB6F71103089",
+          "image_name" : "ionicons-image-256",
+          "title" : "Button"
+        },
+        "frame" : "{{206, 293}, {200, 200}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "tint_color" : "RGBA(0.714286,0.714286,0.714286,1.000000)",
+          "font_size" : 15,
+          "enabled" : true,
+          "font_bold" : false,
+          "name" : "pick_photo",
+          "flex" : "",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "image_take",
+          "uuid" : "CA7143BC-DA53-4DEF-AE28-D9C63B5E5145",
+          "image_name" : "ionicons-camera-256",
+          "title" : "Button"
+        },
+        "frame" : "{{618, 293}, {200, 200}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
